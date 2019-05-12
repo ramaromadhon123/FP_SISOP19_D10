@@ -253,7 +253,7 @@ void* display (void *arg)
 
             DIR *d;
             struct dirent *dir;
-            d = opendir(".");
+            d = opendir("."); //dir folder hasil fuse
 
             if(d)
             {
